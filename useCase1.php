@@ -6,11 +6,11 @@ declare(strict_types=1);
 
 
 //Without class
-    $totalPrice = (6*1) + (3*1.5) + (2*10);
-    $taxe = (((6*1) + (3*1.5))/100*6)+((2*10)/100*21);
+    // $totalPrice = (6*1) + (3*1.5) + (2*10);
+    // $taxe = (((6*1) + (3*1.5))/100*6)+((2*10)/100*21);
 
-    echo $totalPrice ."<br>";
-    echo $taxe."<br>";
+    // echo $totalPrice ."<br>";
+    // echo $taxe."<br>";
 
 
 //With class
