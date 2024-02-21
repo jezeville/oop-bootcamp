@@ -15,11 +15,9 @@ class Groupe {
 
     public function moyenne($groupe)
     {
-        $cpt = 0;
         $total = 0;
-        while($cpt < count($groupe)){
-            $total += $groupe[$cpt]['note'];
-            $cpt++;
+        foreach($groupe as $key => $eleve){
+            $total += $eleve['note'];
         }
         return $total/count($groupe);
     } 
